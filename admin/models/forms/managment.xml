@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_MANAGMENT_ADMIN_VIEWS_MANAGMENT_TMPL_DEFAULT>XML">
+        <message>this comes from the default.xml inside the view</message>
+    </layout>
+    <fields
+            name="request"
+            addfieldpath="/administrator/components/com_managment/models/fields"
+    >
+        <fieldset>
+            <field
+                    name="id"
+                    type="hidden"
+            />
+            name="amount"
+            type="number"
+            label="Amount"
+            description="ADMIN/MODELS/FORMS/managment.XML"
+            size="40"
+            class="inputbox"
+            default=""
+            />
+            <field
+                    name="description"
+                    type="text"
+                    label="Description"
+                    description="ADMIN/MODELS/FORMS/managment.XML"
+                    size="40"
+                    class="inputbox"
+                    default=""
+            />
+            <field
+                    name="date"
+                    type="date"
+                    label="Date"
+                    description="ADMIN/MODELS/FORMS/managment.XML"
+                    size="40"
+                    class="inputbox"
+                    default=""
+            />
+            <field
+                    name="image"
+                    type="text"
+                    label="Path of the image"
+                    description="ADMIN/MODELS/FORMS/managment.XML"
+                    size="40"
+                    class="inputbox"
+                    default=""
+            />
+            <field
+                    name="type"
+                    type="number"
+                    label="Type of the transaction"
+                    description="ADMIN/MODELS/FORMS/managment.XML"
+                    size="40"
+                    class="inputbox"
+                    default=""
+            />
+            <field
+                    name="user_id"
+                    type="number"
+                    label="this comes from the Users table"
+                    description="ADMIN/MODELS/FORMS/managment.XML"
+                    size="40"
+                    class="inputbox"
+                    default=""
+            />
+            />
+        </fieldset>
+
+    </fields>
+</metadata>

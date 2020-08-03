@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project basedir="." name="vContinue" default="build">
+    <target name="build">
+        <zip destfile="managment.zip" basedir="."/>
+    </target>
+</project>
